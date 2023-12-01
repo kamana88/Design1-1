@@ -1,0 +1,91 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    font-size: 29px;
+    column-gap: 100px;
+    margin-left: 200px;
+    margin-top: 70px;
+    font-weight: lighter;
+    text-align: center;
+    color: black;
+}
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+}
+.navbar ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #090f45;
+    display: block;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.buttons button{
+    border-radius: 40px;
+    width: 100px;
+    height: 40px;
+    margin-left: 1320px;
+    color: #090f45;
+    background: #fff;
+   
+}
+.bttn button{
+    border-radius: 40px;
+    width: 100px;
+    height: 40px;
+    margin-left: 1390px;
+    color: #fff;
+    background: #090f45;
+}
+button:hover{
+    background: #9c2d8f;
+}
+.bttn{
+    margin-top: -41px;
+}
+.buttons{
+    margin-top: -70px;
+}
+.header p{
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 137px;
+    margin-top: 180px;
+}
+.about p{
+    font-weight: lighter;
+    font-size: 35px;
+    margin-left: 137px;
+    margin-top: 60px;
+}
+.btn button{
+    background-color: #090f45;
+    color: white;
+    border-radius: 40px;
+    width: 180px;
+    height: 60px;
+    font-size: 15px;
+    margin-left: 245px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+button:hover{
+    background: #9c2d8f;
+}
+.banner img{
+    border-radius: 20px;
+    margin-top: -700px;
+    margin-left: 900px;
+    
+}
+.banner{
+    margin-top: -40px;
+    margin-left: 213px;
+}
